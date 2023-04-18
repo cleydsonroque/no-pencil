@@ -21,7 +21,7 @@ def main():
                     obj_img.itemset((y,x,0),255)
                     obj_img.itemset((y,x,1),255)
                     obj_img.itemset((y,x,2),255)
-    cv2.imwrite("img_np_1.jpg", obj_img)
+    cv2.imwrite("img_np.jpg", obj_img)
     showIMG(obj_img)
 
 main()
